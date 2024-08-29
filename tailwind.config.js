@@ -1,4 +1,4 @@
-export default {
+const config = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -10,9 +10,10 @@ export default {
         white: "#F5F5F5",  // New color
         creamy: "#F5EEDD", 
         bone: "#EAE0C8",
-        
       },
     },
   },
   plugins: [],
-}
+};
+
+export default config;
