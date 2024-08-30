@@ -5,11 +5,14 @@ const config = {
   theme: {
     extend: {
       colors: {
-        backBlue: "#1F305E", // Existing color
-        ash: "#91A3B0",    // New color
-        white: "#F5F5F5",  // New color
-        creamy: "#F5EEDD", 
+        backBlue: "#1F305E",
+        ash: "#91A3B0",
+        white: "#F5F5F5",
+        creamy: "#F5EEDD",
         bone: "#EAE0C8",
+      },
+      fontFamily: {
+        calistoga: ['Calistoga', 'serif'],
       },
     },
   },

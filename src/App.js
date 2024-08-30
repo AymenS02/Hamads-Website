@@ -225,8 +225,8 @@ const moveAwaySchooling = () => {
     const elements = gsap.utils.toArray(".animated-item");
 
     elements.forEach((element) => {
-      const randomX = random(10, 20);
-      const randomY = random(20, 30);
+      const randomX = random(20, 30);
+      const randomY = random(20, 40);
 
       // Random movement animation
       gsap.to(element, {
@@ -300,10 +300,10 @@ const moveAwaySchooling = () => {
   }, []);
 
   return (
-    <div className="bg-creamy w-screen h-screen flex items-center justify-center ">
-
+    <div className="bg-creamy w-screen h-screen flex items-center justify-center font-calistoga">
+      <header className="fixed top-0 left-0 p-4 text-amber-800">© 2024 Hamad Shahbal</header>
       <div 
-        className="about flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black"
+        className="about flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black shadow-2xl"
       >
         <h2 className="text-2xl font-bold">About Me</h2>
         <p className="text-center">
@@ -314,7 +314,7 @@ const moveAwaySchooling = () => {
       </div>
 
       <div 
-        className="experience flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black"
+        className="experience flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black shadow-2xl"
       >
         <div className="flex flex-col gap-4">
           <h2 className="mb-4 text-2xl font-bold">Experience</h2>
@@ -360,7 +360,7 @@ const moveAwaySchooling = () => {
       </div>
 
       <div 
-        className="project flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black"
+        className="project flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black shadow-2xl"
       >
         <div className="flex flex-col gap-4">
           <h2 className=" text-2xl font-bold">Projects</h2>
@@ -413,7 +413,7 @@ const moveAwaySchooling = () => {
       </div>
 
       <div 
-        className="schooling flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black"
+        className="schooling flex flex-col items-center justify-center gap-6 p-20 lg:w-[80%] xl:w-[40%] fixed bg-bone border border-black shadow-2xl"
       >
         <div className="flex flex-col para gap-4">
           <h2 className=" para text-2xl font-bold">Education</h2>
@@ -436,37 +436,38 @@ const moveAwaySchooling = () => {
         id="boy"
         src="/boy.jpg"
         alt="hamad"
-        className="lg:w-[200px] xl:w-[400px] fixed rounded-full border-2 border-black animated-item"
+        className="lg:w-[200px] xl:w-[300px] fixed rounded-full border-2 border-black animated-item shadow-2xl"
         onClick={moveAwayAbout}
       />
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] top-[10%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item"
+        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[10%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwayExperience}
       >
         <h2>Experience</h2>
       </div>
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] top-[60%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item"
+        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[60%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwayProject}
       >
         <h2>Projects</h2>
       </div>
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] top-[60%] left-[65%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item"
+        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[60%] left-[65%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwaySchooling}
       >
         <h2>Education</h2>
       </div>
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] top-[10%] left-[75%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item"
+        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[10%] left-[75%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwayAbout}
       >
         <h2>About Me</h2>
       </div>
+      <footer className="fixed bottom-0 right-0 p-4 text-amber-800">© 2024 Hamad Shahbal</footer>
     </div>
   );
 }
