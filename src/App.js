@@ -216,7 +216,7 @@ const moveAwaySchooling = () => {
 
   useGSAP(() => {
 
-    // Function to generate random values
+    // Function to generate random values, to be changed
     const random = (min, max) => {
       const delta = max - min;
       return (direction = 1) => (min + delta * Math.random()) * direction;
