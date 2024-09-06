@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Hamads-Website/static/css/main.cf6d0067.css",
+    "main.js": "/Hamads-Website/static/js/main.9fda4ef5.js",
+    "index.html": "/Hamads-Website/index.html",
+    "main.cf6d0067.css.map": "/Hamads-Website/static/css/main.cf6d0067.css.map",
+    "main.9fda4ef5.js.map": "/Hamads-Website/static/js/main.9fda4ef5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf6d0067.css",
+    "static/js/main.9fda4ef5.js"
+  ]
+}
