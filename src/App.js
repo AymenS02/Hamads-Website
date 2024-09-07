@@ -320,7 +320,7 @@ const moveAwaySchooling = () => {
           <h2 className="mb-4 text-2xl font-bold">Experience</h2>
           <ul className="flex gap-8 flex-col">
             <li className="flex gap-4 para">
-              <img src="/thermo.jpg" alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
+              <img src={`${process.env.PUBLIC_URL}/thermo.jpg`} alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
               <div>
                 <h3>Process Engineering Associate</h3>
                 <p>Thermo Fisher Scientific · Contract Full-time</p>
@@ -329,7 +329,7 @@ const moveAwaySchooling = () => {
             </li>
 
             <li className="flex gap-4 para">
-              <img src="/starbucks.jpg" alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
+              <img src={`${process.env.PUBLIC_URL}/starbucks.jpg`} alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
               <div>
                 <h3>Barista</h3>
                 <p>Starbucks · Permanent Part-time</p>
@@ -338,7 +338,7 @@ const moveAwaySchooling = () => {
             </li>
 
             <li className="flex gap-4 para">
-              <img src="/doc.png" alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
+              <img src={`${process.env.PUBLIC_URL}/doc.png`} alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
               <div>
                 <h3>Medical Administrative Intern</h3>
                 <p>M Sherman Medicine Professional Corporation · Internship</p>
@@ -347,7 +347,7 @@ const moveAwaySchooling = () => {
             </li>
 
             <li className="flex gap-4 para">
-              <img src="/rx.png" alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
+              <img src={`${process.env.PUBLIC_URL}/rx.png`} alt="thermo" className="w-20 h-20 max-w-full md:w-20 md:h-auto border-black border" />
               <div>
                 <h3>Pharmacy Assistant</h3>
                 <p>Remedy's Rx (Healthcare Plus Pharmacy) · Internship</p>
@@ -418,7 +418,7 @@ const moveAwaySchooling = () => {
         <div className="flex flex-col para gap-4">
           <h2 className=" para text-2xl font-bold">Education</h2>
           <div className="flex gap-4 para ">
-            <img src="/uni.jpg" alt="University" className="w-20 border-black border" />
+            <img src={`${process.env.PUBLIC_URL}/uni.jpg`} alt="University" className="w-20 border-black border" />
             <div>
               <h3>McMaster University</h3>
               <p>Honours Bachelor of Science (Hons. B. Sc), Biology, General</p>
@@ -434,7 +434,7 @@ const moveAwaySchooling = () => {
 
       <img
         id="boy"
-        src="/boy.jpg"
+        src={`${process.env.PUBLIC_URL}/boy.jpg`}
         alt="hamad"
         className="lg:w-[200px] xl:w-[300px] fixed rounded-full border-2 border-black animated-item shadow-2xl"
         onClick={moveAwayAbout}
