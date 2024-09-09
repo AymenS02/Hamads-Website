@@ -1,6 +1,7 @@
 {
   "name": "hamad-portfolio",
   "version": "0.1.0",
+  "homepage": "https://AymenS02.github.io/Hamads-Website",
   "private": true,
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -41,8 +42,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
-  },
-  "homepage": "https://AymenS02.github.io/Hamads-Website"
+  }
 }
