@@ -365,7 +365,6 @@ const moveAwaySchooling = () => {
         <div className="flex flex-col gap-4">
           <h2 className=" text-2xl font-bold">Projects</h2>
           <ul className="flex gap-8 flex-col">
-
             <li className="">
 
               <div className="flex para justify-between mb-6">
@@ -441,28 +440,28 @@ const moveAwaySchooling = () => {
       />
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[10%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
+        className="flex items-center justify-center w-[150px] h-[150px] 2xl:w-[400px] 2xl:h-[400px] xl:text-2xl top-[10%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwayExperience}
       >
         <h2>Experience</h2>
       </div>
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[60%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
+        className="flex items-center justify-center w-[150px] h-[150px] xl:w-[250px] 2xl:w-[400px] xl:h-[250px] 2xl:h-[400px] xl:text-2xl top-[60%] left-[15%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwayProject}
       >
         <h2>Projects</h2>
       </div>
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[60%] left-[65%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
+        className="flex items-center justify-center w-[150px] h-[150px] lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[60%] left-[65%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwaySchooling}
       >
         <h2>Education</h2>
       </div>
 
       <div
-        className="flex items-center justify-center lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[10%] left-[75%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
+        className="flex items-center justify-center w-[150px] h-[150px] lg:w-[250px] xl:w-[400px] lg:h-[250px] xl:h-[400px] xl:text-2xl top-[10%] left-[75%] fixed rounded-full bg-bone border border-black cursor-pointer select-none animated-item shadow-2xl"
         onClick={moveAwayAbout}
       >
         <h2>About Me</h2>
