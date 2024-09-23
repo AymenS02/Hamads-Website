@@ -430,7 +430,6 @@ const moveAwaySchooling = () => {
         </div>
         <button className="bg-amber-800 text-creamy hover:bg-creamy hover:text-black border-black border p-4 mt-5 rounded-lg cursor-pointer duration-300 ease-in-out" onClick={moveBackSchooling}>Back</button>
       </div>
-
       <img
         id="boy"
         src={`${process.env.PUBLIC_URL}/boy.jpg`}
